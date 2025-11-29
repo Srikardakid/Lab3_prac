@@ -1,4 +1,4 @@
-import bmi.py as bmi
+import Lab2_prac.bmi as bmi
 
 def test_bmi_underweight():
     assert(bmi.calculate_bmi(1.90,45)) == -1
